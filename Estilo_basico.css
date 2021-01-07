@@ -1,0 +1,45 @@
+.consultas{
+    background-color: lightblue;
+}
+
+.altas{
+    background-color: lightgreen;
+}
+
+.bajas{
+    background-color: coral;
+}
+
+.modificaciones{
+    background-color: lightyellow;
+}
+
+.menu{
+    background-image: url("img/universidad.jpg");
+}
+
+.menuCentrado{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#elementosMenu{
+    display: flex;
+    justify-content: center;
+}
+
+#menuVolver{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#botonVolver{
+    height: 50px;
+    width: 200px
+}
+
+
