@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php
+session_start();
+session_destroy();
+session_unset();
+?>
 <!--
 Página de acceso para usuarios registrados.
 -->

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html LANG="es">
     <head>
         <link REL="stylesheet" TYPE="text/css" HREF="estilo.css">

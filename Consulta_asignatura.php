@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html LANG="es">
     <head>
         <link REL="stylesheet" TYPE="text/css" HREF="estilo.css">
@@ -43,7 +46,7 @@
                 print ("<TR>\n");
                 print ("<TD>" . $resultado['ID_ASIGNATURA'] . "</TD>\n");
                 print ("<TD>" . $resultado['NOMBRE_ASIGNATURA'] . "</TD>\n");
-                print ("<TD>" . $resultado['ID_CARRERA'] . "</TD>\n");   
+                print ("<TD>" . $resultado['ID_CARRERA'] . "</TD>\n");
                 print ("</TR>\n");
             }
 

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html LANG="es">
     <head>
         <link REL="stylesheet" TYPE="text/css" HREF="estilo.css">
@@ -37,7 +40,6 @@
             print ("<TH>NOMBRE</TH>\n");
             print ("<TH>APELLIDOS</TH>\n");
             print ("<TH>DNI</TH>\n");
-            print ("<TH>CLAVE</TH>\n");
             print ("</TR>\n");
 
             for ($i = 0; $i < $nfilas; $i++) {
@@ -47,7 +49,6 @@
                 print ("<TD>" . $resultado['NOMBRE_ALUMNO'] . "</TD>\n");
                 print ("<TD>" . $resultado['APELLIDOS'] . "</TD>\n");
                 print ("<TD>" . $resultado['DNI'] . "</TD>\n");
-                print ("<TD>" . $resultado['CLAVE'] . "</TD>\n");
                 print ("</TR>\n");
             }
 

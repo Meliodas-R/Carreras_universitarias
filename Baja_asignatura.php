@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html LANG="es">
     <head>
         <link REL="stylesheet" TYPE="text/css" HREF="estilo.css">
@@ -22,7 +25,7 @@
                 or die("No se ha podido realizar la consulta.");
 
         // Mostrar resultados de la consulta.
-        if($instruccion == false){
+        if ($instruccion == false) {
             echo("No se ha podido dar de baja la asignatura.");
         } else {
             echo ("Se ha eliminado una asignatura.");
