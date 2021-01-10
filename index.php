@@ -13,7 +13,8 @@ Página de acceso para usuarios registrados.
         <link href="Estilo_basico.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1>Acceso de usuarios</h1>
+        <h1>Iniciar sesion</h1>
+        
         <form action="Menu.php" method="post">
             Usuario: <input type="text" name="usuario">
             <br>
