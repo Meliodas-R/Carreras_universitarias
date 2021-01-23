@@ -68,6 +68,12 @@ session_start();
                         </article>
 
                         <article id="elementosMenu">
+                            <form method="get" action="Bajas.php">
+                                <button type="submit" id="botonVolver">Bajas</button>
+                            </form>
+                        </article>
+
+                        <article id="elementosMenu">
                             <form method="get" action="Modificaciones.php">
                                 <button type="submit" id="botonVolver">Modificaciones</button>
                             </form> 
@@ -189,6 +195,12 @@ session_start();
                                 <form method="get" action="Altas.php">
                                     <button type="submit" id="botonVolver">Altas</button>
                                 </form>    
+                            </article>
+
+                            <article id="elementosMenu">
+                                <form method="get" action="Bajas.php">
+                                    <button type="submit" id="botonVolver">Bajas</button>
+                                </form>
                             </article>
 
                             <article id="elementosMenu">
