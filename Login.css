@@ -1,0 +1,74 @@
+body{
+    background: url("Imagenes/fondo.jpg");
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    padding-left: 80px;
+}
+
+#imgLogo{
+    height: 150px;
+    width: 150px;
+}
+
+.caja-login{
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 1) ;
+}
+
+.titulo{
+    text-align: center;
+    margin: 15px;
+}
+
+.titulo h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+
+.textbox i {
+    float: left;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    float: left;
+    width: 80%;
+    margin: 0 10px;
+}
+
+.boton{
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    float: center;
+    color: white;
+    background-color: cornflowerblue;
+}

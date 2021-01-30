@@ -42,4 +42,23 @@
     width: 200px
 }
 
+/* Pantalla de inicio de sesion*/
+
+#indexCentrado{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#indexMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.indexFondo{
+    background-color: #0066CC;
+}
+
 
