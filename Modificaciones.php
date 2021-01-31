@@ -182,6 +182,17 @@ session_start();
             echo("Usted no ha iniciado sesion. Por favor, inicie sesion para "
             . "poder ver los contenidos.");
         }
+    } else {
+        ?>
+        <center>Usted no ha iniciado sesion. Por favor, inicie sesion para poder ver los contenidos.</center>
+
+        <div id="menuVolver">
+            <form action="index.php" method="post">
+                <br><br>
+                <input type="submit" name="enviar" value="Volver" id="botonVolver">
+            </form>
+        </div>
+        <?php
     }
     ?>
 </body>
